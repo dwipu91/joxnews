@@ -1,0 +1,70 @@
+.founder_img {
+  height: 4rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+}
+.border-l {
+  border-left: 1.5px solid rgba(128, 128, 128, 0.521);
+}
+.border-l-white {
+  border-left: 1.5px solid #fff;
+}
+/* img {
+  overflow: hidden;
+  image-orientation: from-image;
+} */
+
+.border-b {
+  border-bottom: 1.5px solid white;
+}
+.border-b-r {
+  border-bottom: 1.5px solid gray;
+}
+
+.technology {
+  position: relative;
+}
+
+.technology {
+  position: relative;
+  height: 21rem;
+}
+.technology img {
+  width: 100%;
+  height: 21rem !important;
+}
+.technology-dot {
+  position: absolute;
+  left: 0;
+  bottom: -11.5rem;
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.stay {
+  height: 22rem;
+}
+
+.sociel-icosn---- {
+  display: flex;
+  gap: 3rem;
+}
+.sociel-icosn---- i {
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 0.3rem;
+  transition: all ease-in-out 0.2s;
+}
+.sociel-icosn---- i:hover {
+  padding: 1rem;
+  border: 1px solid yellow;
+  border-radius: 0.3rem;
+}
+li {
+  list-style: none;
+}
+ul {
+  padding-left: 0;
+}

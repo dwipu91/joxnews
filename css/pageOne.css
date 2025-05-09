@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap");
+
+body {
+  font-family: "Tagesschrift", system-ui;
+  background: rgba(128, 128, 128, 0.169);
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+#link:hover a {
+  color: red;
+}
+#logo-icon {
+  line-height: 2rem;
+  margin-top: 0.2rem;
+  color: green;
+}
+#logo-icon:hover {
+  color: green;
+}
+
+#logo-icon i {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.65rem;
+  background: yellow;
+  border-radius: 50%;
+}
+header {
+  background: white;
+}
+
+.busniss-item {
+  height: 25rem;
+
+  position: relative;
+  transition: all ease-in-out 0.3s;
+}
+.busniss-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.busniss-item h4 {
+  display: none;
+}
+.busniss-item:hover h4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: block;
+  background: rgba(128, 128, 128, 0.742);
+  width: 100%;
+  height: 3rem;
+  text-align: center;
+  color: white;
+  line-height: 3rem;
+}
+#stor_image img {
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* */
+.accordion {
+  position: relative;
+  overflow: hidden;
+}
+.accordion::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.225);
+}
+.accordion img {
+  width: 100%;
+}
+.accordion-text {
+  position: absolute;
+  bottom: 6rem;
+  left: 0;
+  width: 100%;
+  height: 4rem;
+  padding: 2rem;
+  z-index: 99;
+}
+
+/*  */
+.turning {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+}
+.turning img {
+  width: 100%;
+  object-fit: cover;
+}
+.turning-text {
+  position: absolute;
+  bottom: 0rem;
+  left: 2.4rem;
+  width: 95%;
+  z-index: 99;
+  background: rgba(231, 225, 225, 0.071);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+.team {
+  position: relative;
+
+  transition: all ease-in-out 0.2s;
+}
+.team:hover .team-text {
+  color: white;
+  text-shadow: 0px 0px 5px brown;
+}
+.team img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.team-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: rgba(221, 220, 220, 0.459);
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+/* prdcast */
+.prdcast {
+  position: relative;
+}
+.prdcast-text {
+  position: absolute;
+  left: 0;
+  bottom: 1rem;
+  width: 100%;
+}
+
+.footer-social-media i {
+  background: rgba(139, 127, 127, 0.555);
+}
